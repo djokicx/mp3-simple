@@ -1,0 +1,25 @@
+Dejan Djokic
+5/8/2014
+Project 4
+
+Files:
+Func.java
+MPlayerPanel.java
+PlayerThread.java
+PlaySong.java
+Song.java
+read_me.txt
+
+This was by far the most interesting project this semester. 
+Although it was very challenging, it was really fun. 
+MPlayerPanel.java sets the GUI for the program. 
+If any of the buttons from the GUI are pressed it calls the methods from Func.java.
+All the functions are explained within the program. 
+The biggest issue I had was with the ArrayList and emptying it after each load mp3 or load library are pressed. 
+However, I realized I just need to call ArrayList<>.clear before calling any methods.
+Class song.java stores artist, title, album and path strings. 
+This way it is easy to manipulate these tags within the ArrayList of Songs. 
+PlayerThread.java and PlaySong.java play the song.
+I also did the extra credit with searching songs by artist and by title, specifying the location of song library when storing and saving, and saving as an XML file. 
+For this reason I added three external jars.
+A very good project! 
